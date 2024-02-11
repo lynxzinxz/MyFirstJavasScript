@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-content">
+    <header>
+      <h1>My First JavaScript | Learning Task 1</h1>
+    </header>
+    <hr>  
+  <br>
+  <br>
+  <h2>There's a hidden message, I hope it will make your day.</h2>
+  <div class="button">
+      <button type="button" onclick="myFunction()">Hi, Please Click Me!</button>
+      <br>
+      <br>
+      <p id="hidden">Please, click the button and read the hidden message.</p>
+  </div>
+
+  
+  <script>
+  function myFunction() { 
+    document.getElementById("hidden").innerHTML = "Hey, you're doing your best and that's enough. Maybe you are not good as everyone out there, <br>but you are way better than you were. Always look forward as to how you will outgrow your previous and now version.";
+    document.getElementById("hidden").style.backgroundColor = "lightblue";
+    document.getElementById("hidden").style.borderRadius ="25px";
+    document.getElementById("hidden").style.fontSize = "25px"; 
+    document.getElementById("hidden").style.color = "#001858";
+    document.getElementById("hidden").style.padding = "2%";
+    document.getElementById("hidden").style.boxShadow = "rgba(0, 0, 0, 0.35) 0px 5px 15px";
+  }
+  </script>
+
+  </div>
+    <div class="img-wrapper">
+        <div class="hug">
+            <a><img src="hug.gif" alt="hug" width="300"></a>
+        </div>
+    </div>
+</body>
+</html>                     
